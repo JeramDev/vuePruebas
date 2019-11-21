@@ -1,17 +1,18 @@
 <template>
   <div>
-    <h1>¡VueJS 2.0!</h1>
-    <img src="./assets/logo.png" alt="VueJS Logo">
+    <HtmlClock></HtmlClock>
+    <HtmlClock></HtmlClock>
+    <HtmlClock></HtmlClock>
   </div>
 </template>
 
-<style>
-  :root {
-    text-align: center;
-  }
+<script>
+import HtmlClock from './components/HtmlClock'
 
-  h1 {
-    font-family: Montserrat, Impact, sans-serif;
-    font-size: 72px;
+export default {
+  name: 'App',
+  components: {
+    HtmlClock
   }
-</style>
+}
+</script>

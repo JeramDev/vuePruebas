@@ -33,6 +33,8 @@
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
+    "@typescript-eslint/eslint-plugin": "^2.8.0",
+    "@typescript-eslint/parser": "^2.8.0",
     "@vue/component-compiler-utils": "^3.0.0",
     "autoprefixer": "^9.6.0",
     "eslint": "^5.16.0",
@@ -50,6 +52,7 @@
     "postcss-preset-env": "^6.6.0",
     "stylelint": "^10.0.1",
     "stylelint-config-standard": "^18.3.0",
+    "typescript": "^3.7.2",
     "vue-hot-reload-api": "^2.3.3",
     "vue-template-compiler": "^2.6.10"
   },
